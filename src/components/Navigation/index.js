@@ -31,6 +31,7 @@ export default function Navigation() {
         Hristo Kachev <br />
         (Junior)<span>Webdeveloper</span>
       </h1>
+      
     </div>
   );
 }
