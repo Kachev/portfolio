@@ -1,0 +1,36 @@
+.description_section h2{
+    font-size: 80px;
+
+}
+.description_section{
+    background: var(--secondary-color);
+    height: 500px;
+    padding:6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+}
+.description_section p{
+    text-align: justify;
+    line-height: 175%;
+}
+@media (max-width:800px) {
+    .description_section h2{
+        font-size: 12vw;
+    
+    }
+    .description_section{
+        background: var(--secondary-color);
+        height: 500px;
+        padding:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap:40px;
+    }
+    
+    
+}

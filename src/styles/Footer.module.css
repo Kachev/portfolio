@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  height: 80px;
+}
+.section img{
+  background-color:#297AE3;
+  border-radius: 50%;   
+}
+.section a{
+  margin:10px;
+}
+.section{
+  display: flex;
+  align-items: center;
+}
+.line1{
+  background: var(--main-brand-color);
+  height: 2px;
+  width: 90vh;
+}
+.line2{
+  background: var(--main-brand-color);
+  height: 2px;
+  width: 10px;
+}
