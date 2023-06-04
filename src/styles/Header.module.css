@@ -97,4 +97,10 @@
     display: flex;
     flex-wrap: wrap;
   }
+  .navigation h1 span{
+    display: flex;
+    margin-left:29px;
+  
+    
+  }
 }

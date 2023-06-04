@@ -17,24 +17,24 @@ export default function Skills() {
       ];
 
       const options = {
-        radius: 230,
+        radius: window.innerWidth < 800 ? 150 : window.innerWidth < 1100 ? 180 : 260,
         maxSpeed: "normal",
         initSpeed: "normal",
         keep: true,
       };
       TagCloud(container, texts, options);
     };
-  },[TagCloud]);
+  }, [TagCloud]);
   return (
     <section className={styles.skills_section} id="skills">
       <div className={styles.description}>
         <h2>Soft Skills</h2>
         <p>
           Der Hauptbereich der Expertise liegt in der Frontend-Entwicklung
-          (Client-Seite des Webs). <br/>HTML, CSS, JS, Erstellung von kleinen und
-          mittleren Webanwendungen mit Next.js oder React, benutzerdefinierte
-          Plugins, Funktionen, Animationen und das Programmieren interaktiver
-          Layouts.
+          (Client-Seite des Webs). <br />
+          HTML, CSS, JS, Erstellung von kleinen und mittleren Webanwendungen mit
+          Next.js oder React, benutzerdefinierte Plugins, Funktionen,
+          Animationen und das Programmieren interaktiver Layouts.
         </p>
       </div>
 
