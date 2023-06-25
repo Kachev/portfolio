@@ -25,7 +25,7 @@ export default function Skills() {
       };
       TagCloud(container, texts, options);
     };
-  });
+  },[]);
   return (
     <section className={styles.skills_section} id="skills">
       <div className={styles.description}>
@@ -40,7 +40,7 @@ export default function Skills() {
       </div>
 
       <div className={styles.skills_sphere}>
-        <span  ref={containerRef}></span>
+        <span ref={containerRef}></span>
       </div>
     </section>
   );
