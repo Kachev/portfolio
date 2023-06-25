@@ -30,7 +30,7 @@ export default function Skills() {
     tagCloudContainer.innerHTML = "";
       };
     };
-  }, []);
+  });
   return (
     <section className={styles.skills_section} id="skills">
       <div className={styles.description}>
