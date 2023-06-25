@@ -4,13 +4,15 @@ export default function Desctiption() {
     <section className={styles.description_section} id="about_me">
       <h2>Über Mich</h2>
       <p>
-        Lorem100 Duis sit nulla culpa minim mollit. Et enim commodo adipisicing
-        est. Mollit eu magna enim nostrud est. Aliquip id in sint officia
-        occaecat excepteur culpa pariatur quis mollit proident. Pariatur sint
-        est ut consequat enim irure do aliquip. Culpa cupidatat pariatur commodo
-        excepteur exercitation veniam ullamco qui deserunt irure dolore irure
-        magna. Ea sint aute cupidatat anim dolore occaecat dolore minim
-        adipisicing tempor.
+        Ich habe eine Leidenschaft für Technologie und bin begeistert davon, wie
+        sie unser tägliches Leben beeinflusst. Mit einer abgeschlossenen
+        Ausbildung als Fachinformatiker und Erfahrung in der Entwicklung von
+        Webanwendungen bin ich bestrebt, meine Fähigkeiten als Junior-Entwickler
+        weiter auszubauen. Meine Motivation liegt darin, Lösungen zu finden, die
+        das Benutzererlebnis verbessern und gleichzeitig den technischen
+        Anforderungen gerecht werden. Meine schnelle Auffassungsgabe ermöglicht
+        es mir, mich zügig in neue Projekte einzuarbeiten und mich flexibel auf
+        neue Technologien einzustellen.
       </p>
     </section>
   );

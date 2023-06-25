@@ -23,7 +23,7 @@
     }
     .description_section{
         background: var(--secondary-color);
-        height: 500px;
+        height: 60%;
         padding:20px;
         display: flex;
         justify-content: center;

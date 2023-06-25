@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
-import styles from "@/styles/Skills.module.css";
+import React, { useEffect, useRef } from "react";
 import TagCloud from "TagCloud";
+import styles from "@/styles/Skills.module.css";
 export default function Skills() {
+  const containerRef = useRef(null);
   useEffect(() => {
     return () => {
-      const container = ".tagcloud";
+      const container = containerRef.current;
       const texts = [
         "HTML",
         "CSS",
@@ -39,7 +40,7 @@ export default function Skills() {
       </div>
 
       <div className={styles.skills_sphere}>
-        <span className="tagcloud"></span>
+        <span  ref={containerRef}></span>
       </div>
     </section>
   );
