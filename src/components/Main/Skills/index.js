@@ -18,14 +18,19 @@ export default function Skills() {
       ];
 
       const options = {
-        radius: window.innerWidth < 800 ? 150 : window.innerWidth < 1100 ? 180 : 260,
+        radius:
+          window.innerWidth < 800 ? 150 : window.innerWidth < 1100 ? 180 : 260,
         maxSpeed: "normal",
         initSpeed: "normal",
         keep: true,
       };
       TagCloud(container, texts, options);
+      return () => {
+        const tagCloudContainer = container.querySelector(".tagcloud");
+    tagCloudContainer.innerHTML = "";
+      };
     };
-  },[containerRef]);
+  }, []);
   return (
     <section className={styles.skills_section} id="skills">
       <div className={styles.description}>
