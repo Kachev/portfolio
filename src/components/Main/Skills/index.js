@@ -25,7 +25,7 @@ export default function Skills() {
       };
       TagCloud(container, texts, options);
     };
-  },[]);
+  },[containerRef]);
   return (
     <section className={styles.skills_section} id="skills">
       <div className={styles.description}>
